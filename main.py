@@ -7,9 +7,9 @@ from servicios.restaurante import Restaurante
 restaurante = Restaurante("Prueba de Concepto")
 
 #Se crea productos del restaurante
-producto1 = Producto("Plato #1", 3.99, "Comida")
-producto2 = Producto("Plato #2", 5.99, "Comida")
-producto3 = Producto("Bebida #1", 3.50, "Bebida")
+producto1 = Producto("Plato #1", 3.99, "Pequeño")
+producto2 = Producto("Plato #2", 5.99, "Mediano")
+producto3 = Producto("Bebida #1", 3.50, "Grande")
 
 #Se crean clientes
 cliente1 = Cliente("Cliente Prueba A", "0912345678")
